@@ -17,8 +17,10 @@
     * gunicorn is only used in "production" on heroku
 * create file Procfile
 * create runtime.txt
-* terminal
+* From VSCode commit to github
+* Terminal
     * heroku login
     * heroku create test-flask-heroku
     * git remote add heroku https://git.heroku.com/test-flask-heroku.git
     * git push heroku main
+    * heroku open

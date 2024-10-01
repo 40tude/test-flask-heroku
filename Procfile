@@ -1,1 +1,1 @@
-web: gunicorn web: test-flask-heroku:app
+web: gunicorn test-flask-heroku:app
