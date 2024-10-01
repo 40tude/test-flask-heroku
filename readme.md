@@ -23,4 +23,6 @@
     * heroku create test-flask-heroku
     * git remote add heroku https://git.heroku.com/test-flask-heroku.git
     * git push heroku main
+    * heroku config:set FLASK_ENV=production
     * heroku open
+    * This should work

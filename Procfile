@@ -1,1 +1,1 @@
-web: gunicorn test-flask-heroku:app
+web: gunicorn test-flask-heroku:app --workers=3
