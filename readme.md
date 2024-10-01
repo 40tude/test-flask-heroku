@@ -15,8 +15,10 @@
     * At the end of requirements.txt add the line gunicorn==23.0.0
     * I have to do that because I run WIN11 and I can't install gunicorn
     * gunicorn is only used in "production" on heroku
-* create Procfile
+* create file Procfile
 * create runtime.txt
 * terminal
     * heroku login
     * heroku create test-flask-heroku
+    * git remote add heroku https://git.heroku.com/test-flask-heroku.git
+    * git push heroku main
